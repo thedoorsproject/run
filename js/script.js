@@ -52,7 +52,7 @@ async function input(prefix, pwd="") {
 }
 
 function onkeydown(e) {
-    delay(1000);
+    console.log(e);
 
     var last_line = term.childNodes[term.childNodes.length - 1];
     if (is_input) {
