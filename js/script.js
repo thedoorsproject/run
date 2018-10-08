@@ -255,7 +255,7 @@ async function main() {
                 } else {
                     a = "И в этой комнате первая дверь закрыта на кодовый замок."; type(a); await delay(a.length * type_delay + line_delay);
                     a = "Кажется, тут очередная задачка!"; type(a); await delay(a.length * type_delay + line_delay);
-                    a = "«Сколько возможных четырехзначных чисел можно составить только из четных цифр?»"; type(a); await delay(a.length * type_delay + line_delay);
+                    a = "«Сколько возможных четырехзначных чисел можно составить только из ечетных цифр?»"; type(a); await delay(a.length * type_delay + line_delay);
                     a = "Попробуй решить!"; type(a); await delay(a.length * type_delay + line_delay);
                         
                     correct = "625";
